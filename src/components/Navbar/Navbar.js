@@ -13,10 +13,10 @@ function Navbar() {
             </div>
             <ul className="navbar-nav">
                 <li className="nav-item">
-                    <NavLink className="nav-link" to="/">Home</NavLink>
+                    <NavLink className="nav-link" to="/">Главная</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink className="nav-link" to="/about">About</NavLink>
+                    <NavLink className="nav-link" to="/about">Информация</NavLink>
                 </li>
             </ul>
             <Link to={'basket'} className="ml-auto">

@@ -1,5 +1,5 @@
 import React,{Fragment, useCallback, useEffect} from 'react'
-import Navbar from "../../components/NavBar/NavBar";
+import Navbar from "../../components/Navbar/Navbar";
 import Card from '../../components/Card/Card'
 import Categories from '../../components/Categories/Categories'
 import {useSelector, useDispatch} from 'react-redux'

@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import BasketItem from '../../components/BasketItem/BasketItem'
 import { clearbasket, removeCpu, plusItem, minusItem } from '../../redux/actions/basket'
 import { Link } from 'react-router-dom'
-import Navbar from '../../components/NavBar/NavBar'
+import Navbar from '../../components/Navbar/Navbar'
 
 function Basket() {
     const dispatch = useDispatch()

@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from '../Button/Button'
+import { NavLink } from 'react-router-dom'
 
 function Card({id, name, imageUrl, frequency, cores, threads, price, TDP, technicalProcess, onClickAddCpu, addedCount}) {
     const onAddCpu = () => {
@@ -16,7 +17,9 @@ function Card({id, name, imageUrl, frequency, cores, threads, price, TDP, techni
 
     return (
         <div className="cardBlock">
-            <img src={imageUrl} className="card-img-top" alt={'CPU'}/>
+            <NavLink to={`/cpu/${id}`} > 
+                <img src={imageUrl} className="card-img-top" alt={'CPU'}/>
+            </NavLink>
             <h4 className="card-title">{name}</h4>
             <div className="cardBlock--selector">
                 <ul>
