@@ -17,9 +17,7 @@ function Card({id, name, imageUrl, frequency, cores, threads, price, TDP, techni
 
     return (
         <div className="cardBlock">
-            <NavLink to={`/cpu/${id}`} > 
-                <img src={imageUrl} className="card-img-top" alt={'CPU'}/>
-            </NavLink>
+            <img src={imageUrl} className="card-img-top" alt={'CPU'}/>
             <h4 className="card-title">{name}</h4>
             <div className="cardBlock--selector">
                 <ul>
