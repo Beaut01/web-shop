@@ -1,12 +1,12 @@
 # Web-Shop
-simple online store with product page and shopping cart
+Simple online store with product page and shopping cart
 
 ## Required scripts
 ### `npm run server` 
-to run fake server
+To run fake server
 
 ### `npm start` 
-to run the application
+To run the application
 
 ![web-shop1](https://user-images.githubusercontent.com/77191978/126940315-57eabafc-0f3d-41e1-9ce3-924115c36061.png)
 
